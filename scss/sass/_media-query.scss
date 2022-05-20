@@ -1,0 +1,124 @@
+@media screen and (max-width:600px) {
+
+    .header{
+        margin-bottom: 0;
+        min-height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+    .header__logo{
+        border: 1px solid black;
+        border-radius: 0;
+        width: 80px;
+        height: 80px;
+    }
+    .header__menu{
+        display: block;
+        transform: translatex(350px);
+        font-size: 60px;
+        text-decoration: none;
+        color: black;
+    }
+    .nav{
+        padding: 0;
+    }
+    .nav__lista{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__item{
+        display: none;
+    }
+    .seccion__titulo{
+        font-size: 30px;
+    }
+    .seccion__imagen1{
+        margin-top: 0%;
+    }
+    .seccion__servicio{
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 8px;
+        width: 330px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 300px;
+    }
+    .servicio__subtitle{
+        margin-top: 2px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .servicio__parrafo{
+        margin-top: 10px;
+        font-size: 13px;
+        text-align: center;
+        
+    }
+    .servicio__imagen{
+        margin-top: 4px;
+        width: 300px;
+        height: 230px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        position: relative;
+
+    }
+    .footer__text{
+        padding: 0%;
+        font-size: 10px;
+    }
+    .footer__icons{
+        font-size: 40px ;
+        position: absolute;
+        margin-top: 25px;
+        transform: translatex(200px);
+    }
+    .seccion__nosotros{
+        display: grid;
+        grid-template-columns: 450px;
+    }
+    .nosotros__imagen{
+        margin: 0%;
+        width: 450px;
+        height: 400px;
+    }
+    .nosotros__boxtext{
+        margin-top: 2px;
+        height: 370px;
+    }
+    .nosotros__texto{
+        font-size: 15px;
+    }
+    .seccion__alarmas{
+        min-height: auto;
+        min-width: auto;
+        margin-left: 60px;
+        display: grid;
+        grid-template-columns: 100px 100px;
+    }
+    .alarma__img{
+        width: 150px;
+        height: 150px;
+    }
+    .alarma__boxtext{
+        width: 200px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .alarma__text{
+        font-size: 15px;
+    }
+    .contacto__formulario{
+        width: 500px;
+    }
+    .contacto__subtitulo{
+        font-size: 25px;
+    }
+}

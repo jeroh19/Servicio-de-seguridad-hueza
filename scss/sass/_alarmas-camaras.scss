@@ -1,0 +1,39 @@
+.seccion__alarmas{
+    min-width: 1000px;
+    min-height: 500px;
+    padding: 4rem;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 200px 25% 200px 25%;
+    gap: 5px;
+    .alarma__img{
+        width: 200px;
+        height: 200px;
+        border: 1px solid rgb(40, 105, 109);
+        position: absolute;
+    }
+    .alarma__boxtext{
+        background-color: $color-fondotext;
+        width: 250px;
+        height: 200px;
+        padding: 1rem;
+        border: 3px solid rgb(40, 105, 109);
+        
+        .alarma__text{
+            text-align: center;
+            font-size: 20px;
+            color: rgb(32, 31, 31);
+            font-style: italic;
+        }
+        .camara__text{
+        padding-top: 50px;
+        padding-right: 35px;
+        text-align: center;
+        font-size: 15px;
+        color: rgb(32, 31, 31);
+        font-style: italic;
+        }
+    }
+    
+} 
+

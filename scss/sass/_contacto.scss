@@ -1,0 +1,32 @@
+.seccion__contacto{
+    min-height: 600px;
+    min-height: 700px;
+    padding-bottom: 5rem;
+    .contacto__subtitulo{
+        margin-top: 30px;
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .contacto__formulario{
+        width: 700px;
+        background-color: $color-fondotext;
+        border: 3px solid rgb(40, 105, 109);
+        border-radius: 20px;
+        padding: 20px;
+        margin: auto;
+        margin-top: 40px;
+    
+    }
+    .contacto__controladores{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 1rem;
+        border: 2px solid rgb(40, 105, 109);
+        border-radius: 10px;
+    }
+}
+
+
+
