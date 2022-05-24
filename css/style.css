@@ -23,12 +23,12 @@ body {
   margin-bottom: 20px;
 }
 
-.header .header__logo {
+.header__logo {
   width: 100px;
   height: 100%;
 }
 
-.header .header__menu {
+.header__menu {
   display: none;
 }
 
