@@ -36,11 +36,11 @@ nav {
   padding: 1rem;
 }
 
-nav .nav__cruz {
+.nav__cruz {
   display: none;
 }
 
-nav .nav__lista {
+.nav__lista {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -48,7 +48,7 @@ nav .nav__lista {
   margin-right: 245px;
 }
 
-nav .nav__item {
+.nav__item {
   align-self: center;
   background-color: white;
   width: 110px;
@@ -61,17 +61,17 @@ nav .nav__item {
   text-align: center;
 }
 
-nav .nav__item:hover {
+.nav__item:hover {
   background-color: lightgray;
 }
 
-nav .nav__enlace {
+.nav__enlace {
   text-decoration: none;
   font-size: 18px;
   color: black;
 }
 
-nav .nav__enlace:hover {
+.nav__enlace:hover {
   color: white;
 }
 
