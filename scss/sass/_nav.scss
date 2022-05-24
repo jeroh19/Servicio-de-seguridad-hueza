@@ -1,0 +1,38 @@
+nav{
+    padding: 1rem;
+    .nav__cruz{
+        display: none
+    }
+    .nav__lista{
+        @include flexbox (row, space-between);
+        list-style: none;
+        margin-right: 245px;
+    }
+    .nav__item{
+        align-self: center;
+        background-color: white;
+        width: 110px;
+        height: 50px;
+        padding: 15px;
+        margin-left: 55px;
+        margin-top: 8px;
+        border: 1px solid $color__bordes;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .nav__item:hover{
+        background-color: rgb(211, 211, 211);
+    }
+    .nav__enlace{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    }
+    .nav__enlace:hover{
+        color: white;
+    }
+}
+
+
+
+

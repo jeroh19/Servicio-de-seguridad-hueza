@@ -1,0 +1,46 @@
+.seccion__titulo{
+    font-size: 40px;
+    font-style: italic;
+    padding: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    background-color: $color__fondo ;
+    border: 3px solid $color__bordes;
+}
+.seccion__imagen1{
+    margin-top: 20px;
+    height: 420px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.seccion__servicio{
+    padding: 10px;
+    width: 750px;
+    height: 310px;
+    margin: 4rem;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 400px 350px;
+    background-color: $color__fondo;
+    border: 2px solid $color__bordes;
+    border-radius: 10px;
+}
+.servicio__subtitle{
+    margin-top: 1rem;
+    text-align: center;
+   
+}
+
+.servicio__parrafo{
+        margin-top: 2rem;
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+}
+.servicio__imagen{
+    border-radius: 10px;
+    width: 320px;
+    height: 290px;
+    border: 2px solid $color__bordes;
+}

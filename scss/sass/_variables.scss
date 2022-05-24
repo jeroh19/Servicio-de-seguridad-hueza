@@ -1,0 +1,8 @@
+$color__fondo:#3c8f92;
+$color__bordes: #28696d;
+
+@mixin flexbox ($direction, $eje-x) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $eje-x;  
+}
