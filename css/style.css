@@ -557,7 +557,7 @@ nav {
     font-size: 8px;
   }
   .footer__icons {
-    font-size: 40px;
+    font-size: 30px;
   }
   .seccion__nosotros {
     display: grid;
@@ -610,12 +610,33 @@ nav {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 460px) {
   .banner__text {
     font-size: 15px;
   }
   .banner__text2 {
     font-size: 15px;
+  }
+  .footer__text {
+    font-size: 8px;
+  }
+  .footer__icons {
+    font-size: 30px;
+  }
+  .seccion__nosotros {
+    padding-left: 30px;
+    grid-template-columns: 100%;
+  }
+  .nosotros__boxtext {
+    width: 100%;
+  }
+  .nosotros__titulo {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .nosotros__texto {
+    margin-top: 30px;
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */
