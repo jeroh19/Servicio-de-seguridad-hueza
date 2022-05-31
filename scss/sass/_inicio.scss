@@ -7,19 +7,41 @@
     background-color: $color__fondo ;
     border: 3px solid $color__bordes;
 }
-.seccion__imagen1{
+.seccion__banner{
+    position: relative;
     margin-top: 20px;
-    height: 420px;
+    width: 100%;
+    height: 400px;
+}
+.banner__imagen1{
+    height: 400px;
     width: 100%;
     border-radius: 10px;
-    
+}
+.banner__text{
+    position: absolute;
+    color: rgb(48, 48, 48);
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 40px;
+    left: 30%;
+    top: 55%;
+}
+.banner__text2{
+    position: absolute;
+    color: rgb(48, 48, 48);
+    border-radius: 15px;
+    font-style: italic;
+    font-size: 40px;
+    left: 31%;
+    top: 70%;
 }
 .seccion__servicio{
     padding: 10px;
     width: 750px;
     height: 310px;
     margin: 4rem;
-    margin-top: 30px;
+    margin-top: 5%;
     display: grid;
     grid-template-columns: 400px 350px;
     background-color: $color__fondo;
