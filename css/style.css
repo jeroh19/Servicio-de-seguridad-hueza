@@ -114,7 +114,7 @@ nav {
   border-radius: 15px;
   font-style: italic;
   font-size: 40px;
-  left: 31%;
+  left: 36%;
   top: 70%;
 }
 
@@ -140,7 +140,7 @@ nav {
   margin-top: 2rem;
   text-align: center;
   font-style: italic;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .servicio__imagen {
@@ -151,12 +151,64 @@ nav {
 }
 
 .contenedor__resumen {
-  width: 90%;
-  height: 300px;
+  width: 85%;
+  min-height: 300px;
+  margin: auto;
   margin-bottom: 50px;
+  padding: 20px;
   background-color: #3c8f92;
-  border-top: 2px solid #28696d;
-  border-bottom: 2px solid #28696d;
+  border: 2px solid #28696d;
+  border-radius: 15px;
+}
+
+.resumen__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.resumen__parrafo {
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.resumen__iconos {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 20px;
+}
+
+.r__iconos1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+.r__iconos2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+.resumen__boton {
+  display: flex;
+  justify-content: center;
+}
+
+.r__boton {
+  margin-top: 20px;
+  background-color: #4c4cc0;
+  width: 50%;
+}
+
+.boton__link {
+  color: white;
+  text-decoration: none;
 }
 
 .footer {
