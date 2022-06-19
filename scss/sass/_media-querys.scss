@@ -193,7 +193,7 @@
         top: 0;
         right: -100%;
         z-index: 50;
-        transition: right 2s;
+        transition: right 1s;
     }
     #lateral:target{
         right: 0;
@@ -339,7 +339,7 @@
         font-size: 13px;
     }
 }
-@media screen and (max-width: 341px) {
+@media screen and (max-width: 344px) {
     .seccion__titulo{
         font-size: 20px;
     }
@@ -382,5 +382,13 @@
     }
     .contacto__subtitulo{
         font-size: 20px;
+    }
+    .r__iconos1{
+        width: 80px;
+        height: 80px;
+    }
+    .r__iconos2{
+        width: 80px;
+        height: 80px;
     }
 }
